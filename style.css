@@ -15,7 +15,6 @@
 
 nav {
 width: 80%;
-position: sticky;
 margin: 20px auto;
 z-index: 1;
 display:flex;
@@ -184,4 +183,18 @@ position: ;
     mask-position: 100% 100%, 100% 0%;
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
+  }
+
+  .sec-1 {
+    
+    height: 20rem;
+      background-image: linear-gradient(
+          115deg,
+          rgba(245, 245, 245, 0.6),
+          rgba(245, 245, 233,0.6)
+        ),
+    url(slash.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
