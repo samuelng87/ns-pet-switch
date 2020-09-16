@@ -27,11 +27,15 @@ var time = 4500;
 
 
 // Image List 
-
-images [0] = 'ironfist.gif';
-images [1] = 'punch.gif';
-images [2] = 'ironfist.gif';
-images [3] = 'slash.gif';
+images [0] = 'https://data.whicdn.com/images/317782926/original.gif'
+images [1] = 'https://data.whicdn.com/images/317782926/original.gif'
+images [2] = 'frogstyle.gif';
+images [3] = 'https://i.pinimg.com/originals/d5/de/95/d5de95e1558c2b3669158893ad86a7b0.gif'
+images [4] = 'ironfist.gif';
+images [5] = 'https://i.pinimg.com/originals/d5/de/95/d5de95e1558c2b3669158893ad86a7b0.gif'
+images [6] = 'slash.gif';
+images [7] = 'https://i.pinimg.com/originals/d5/de/95/d5de95e1558c2b3669158893ad86a7b0.gif'
+images [8] = 'punch.gif';
 
 
 // change img 

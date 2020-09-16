@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     margin:0;
     padding:0;
@@ -88,12 +92,12 @@ color:honeydew;
 margin-top: 8px;
 }
 .one {
-top:320px;
-right:100px;
+top:350px;
+right:10px;
 }
 .two {
-top:10px;
-left:390px;
+top:-74px;
+left:422px;
 transform:rotate(-90deg);
 }
 .three {
@@ -155,27 +159,12 @@ width:21px
 .overlay {
     width: 0;
     height: 0;
-    border-top: 500px solid #ccc;
-    border-right: 500px solid black;
-    border-bottom: 500px solid #ccc;
-    border-left :500px solid #ccc;
     position: absolute;
     left: 0;
     top: 0; 
 }
 
-.cover1 {
-position: absolute;
-width: 100px;
-background-color: red;
-height: 100px;
-}
-.cover2 {
-position: absolute;    
-}
-.cover2 {
-position: ;    
-}
+
 
 #clip {
     width: 1000px;
@@ -197,11 +186,85 @@ position: ;
     height: 20rem;
       background-image: linear-gradient(
           115deg,
-          rgba(86, 67, 87, 0.5),
-          rgba(17, 5, 5, 0.5)
+          rgba(206, 25, 216, 0.3),
+          rgba(123, 38, 235, 0.3)
         ),
-    url(slash.gif);
+    url(navsussano.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .sec-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:45.05rem;
+      background-image: linear-gradient(
+          115deg,
+          rgba(241, 65, 74, 0.2),
+          rgba(179, 28, 171, 0.2)
+        ),
+    url(sussano.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .sec-2 {
+    width: 100%;
+    height:100%;
+     
+  }
+  .sec-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+  height:45.05rem;
+    background-image: linear-gradient(
+        115deg,
+        rgba(86, 67, 87, 0.5),
+        rgba(17, 5, 5, 0.5)
+      ),
+  url(madara.gif);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+  height:45.05rem;
+    background-image: linear-gradient(
+        115deg,
+        rgba(86, 67, 87, 0.5),
+        rgba(17, 5, 5, 0.5)
+      ),
+  url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/27fc6bc6-4bac-4e74-bab9-7e3f47fda085/d6v6z6y-5eb80eb3-6ab8-4b4c-bc90-deb0746e505a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMjdmYzZiYzYtNGJhYy00ZTc0LWJhYjktN2UzZjQ3ZmRhMDg1XC9kNnY2ejZ5LTVlYjgwZWIzLTZhYjgtNGI0Yy1iYzkwLWRlYjA3NDZlNTA1YS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.7PPhCQwr7o2gklMMfzHZuaqq9TFOrWE10AN6r1hPNfs);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome {
+    transition: 1s;
+    height:5rem;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome h1 {
+    color: honeydew;
+
+}
