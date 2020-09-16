@@ -23,15 +23,15 @@ downBtn.onclick = function () {
 
 var i = 0; // start point 
 var images = []
-var time = 5000;
+var time = 4500;
 
 
 // Image List 
 
-images [0] = 'main-1.gif';
-images [1] = 'main-2.gif';
-images [2] = 'main-3.gif';
-images [3] = 'main4.gif';
+images [0] = 'ironfist.gif';
+images [1] = 'punch.gif';
+images [2] = 'ironfist.gif';
+images [3] = 'slash.gif';
 
 
 // change img 
