@@ -45,17 +45,17 @@ var time = 4500;
 
 
 // Image List 
-images [0] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif'
-images [1] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif'
+images [0] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif';
+images [1] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif';
 images [2] = 'ironfist.gif';
-images [3] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif'
-images [4] = 'frogstyle.gif';
-images [5] = 'lighting.gif'
+images [3] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif';
+images [4] = 'frogkillchoy.gif';
+images [5] = 'lighting.gif';
 images [6] = 'slash.gif';
-images [7] = 'lighting.gif'
+images [7] = 'lighting.gif';
 images [8] = 'punch.gif';
 images [9] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif';
-images [10] = '';
+
 
 // change img 
 
