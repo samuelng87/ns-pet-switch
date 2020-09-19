@@ -11,6 +11,7 @@ html {
 
 #myBtn {
       font-size: 20px;
+      transform: rotate(180deg);
       display: none;
       position: fixed;
       bottom: 20px;
@@ -29,7 +30,13 @@ background-color: transparent;
     
     #myBtn:hover {
       background-color: transparent;
+
+
     }
+
+    #myBtn img {    
+          width: 100px;
+      }
 /***
 
 #myBtn {
