@@ -93,7 +93,7 @@ const container = document.querySelector('.con-tainer')
 breatheAnimation()
 
  function breatheAnimation () {
-     text.innerHTML = '"I have mastered the elements a thousand times in a thousand lifetimes. Now i must do it once again."'
+     text.innerHTML = '"I have mastered the Kinjutsu a thousand times in a thousand lifetimes. Now i must do it once again."'
      container.className = 'container grow'
 
      setTimeout(() => {
