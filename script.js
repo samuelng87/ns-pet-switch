@@ -1,4 +1,4 @@
-alert('This website is under development')
+alert('Warning ! This website contain a lot of Chraka to connect are you ready? ')
 
 
 
