@@ -259,6 +259,45 @@ width:21px
     top: 0; 
 }
 
+.container {
+    display:flex;
+      height:100vh;
+      align-items:top;
+      justify-content:center;
+      transition:1s;
+      width: 100%;
+    }
+    
+    #text:hover {
+opacity: 1;
+    }
+
+    #text {
+        width: 100%;
+        transition: 1s;
+        opacity: 0.5;
+        padding:50px 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height:10%;
+      width:80%;
+      border-radius:10px;
+        background-image: linear-gradient(
+            115deg,
+            rgba(2, 2, 2, 0.5),
+            rgba(55, 168, 172, 0.5)
+          ),
+      url(https://thumbs.gfycat.com/SizzlingCrazyBooby-size_restricted.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color:white;
+       box-shadow: 5px 5px rgba(26, 45, 107, 0.5);
+      font-weight:900;
+      font-size:16px;
+    }
+    
 
 
 #clip {

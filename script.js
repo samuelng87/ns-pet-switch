@@ -82,3 +82,33 @@ function printNumber (num) {
 
 printNumber((2020,2021))
 
+const container = document.querySelector('.con-tainer')
+
+ const text = document.querySelector('#text')
+
+ const totalTime = 20000 
+ const breatheTime = (totalTime / 5) * 2
+ const holdTime = totalTime / 5 
+
+breatheAnimation()
+
+ function breatheAnimation () {
+     text.innerHTML = '"I have mastered the elements a thousand times in a thousand lifetimes. Now i must do it once again."'
+     container.className = 'container grow'
+
+     setTimeout(() => {
+
+text.innerText = '"Change is not something human beings like and it cause us fear. Fear works to the benefit of those who would like to control others "'
+
+setTimeout(() => {
+text.innerText = '"New growth cannot exist without first the destruction of the old"'
+container.className = 'container shrink'
+}, holdTime)
+
+}, breatheTime)
+
+}
+
+setInterval(breatheAnimation, totalTime)
+
+
