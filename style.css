@@ -26,49 +26,19 @@ html {
       padding: 15px;
       border-radius: 4px;
 background-color: transparent;
+transition: 1s;
     }
     
     #myBtn:hover {
       background-color: transparent;
-
-
+transition: 0.5s;
+bottom:15px;
     }
 
     #myBtn img {    
           width: 100px;
       }
-/***
 
-#myBtn {
-    width:40px;
-    transform: rotate(180deg);
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: -20px;
-    z-index: 99;
-    font-size: 2rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 0px 10px;
-background-color: transparent;
-transition: 1s;
-  }
-  
-  #myBtn:hover {
-    background-color: transparent;
-    transition: 0.1s;
-    bottom: 25px;
-  }
-
-  #myBtn img {
-    background-color: transparent;
-
-      width: 100px;
-  }
-
-****/
 
 .main {
 
