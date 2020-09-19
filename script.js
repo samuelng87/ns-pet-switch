@@ -59,9 +59,11 @@ images [4] = 'lighting.gif';
 images [5] = 'slash.gif';
 images [6] = 'punch.gif';
 images [7] = 'lighting.gif'
-images [8] = 'rokuironfist.gif';
-images [9] = 'rokupunch.gif';
-images [10] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif';
+images [8] = 'hanami.gif';
+images [9] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif';
+images [10] = 'rokuironfist.gif';
+images [11] = 'rokupunch.gif';
+images [12] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif';
 
 
 // change img 
