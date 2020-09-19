@@ -98,7 +98,7 @@ breatheAnimation()
 
      setTimeout(() => {
 
-text.innerText = '"Change is not something human beings like and it cause us fear. Fear works to the benefit of those who would like to control others "'
+text.innerText = '"CHANGE is NOT something human beings like and it cause us FEAR. FEAR works to the benefit of those who would like to control others "'
 
 setTimeout(() => {
 text.innerText = '"New growth cannot exist without first the destruction of the old"'
