@@ -15,7 +15,7 @@ html {
       display: none;
       position: fixed;
       bottom: 20px;
-      right: 30px;
+      right: -20px;
       z-index: 99;
       font-size: 18px;
       border: none;
@@ -325,8 +325,7 @@ opacity: 1;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      color:ho;
-       box-shadow: 5px 5px rgba(26, 45, 107, 0.5);
+      color:honeydew;
       font-weight:900;
       font-size:16px;
     }
