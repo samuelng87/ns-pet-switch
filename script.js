@@ -1,4 +1,4 @@
-alert('Warning ! This website contain a lot of Chraka to connect are you ready? ')
+alert('Warning ! You need a lot of Chakra to connect into this website, are you ready? ')
 
 
 
