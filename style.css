@@ -538,7 +538,7 @@ border-radius: 10px;
         grid-template-columns: 1fr 1fr ;
         opacity: 0;
         transition: 3s;
-        grid-gap:40px;
+        grid-gap:20px;
     }
 
     .one {
