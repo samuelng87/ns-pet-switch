@@ -2,6 +2,21 @@ html {
     scroll-behavior: smooth;
 }
 
+audio {
+    width:10rem;
+    left:0;
+    top:20%;
+    position: fixed;
+opacity: 0.2;
+transition: 1s;
+}
+
+audio:hover {
+    width:15rem;
+    transition: 1s;
+opacity: 1;
+}
+
 *{
     margin:0;
     padding:0;
@@ -455,10 +470,10 @@ border-radius: 10px;
   height:100%;
     background-image: linear-gradient(
         115deg,
-        rgba(86, 67, 87, 0.5),
-        rgba(17, 5, 5, 0.5)
+        rgba(12, 216, 243, 0.3),
+        rgba(67, 145, 141, 0.3)
       ),
-  url(madara.gif);
+  url(char3background.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -751,7 +766,7 @@ width: 90%;
     .video1 {
         display: flex;
         flex-direction: column;
-        background-color:rgba(9, 6, 17, 0.9);
+        background-color:rgba(106, 105, 107, 0.9);
     border-radius: 10px;
         height: 100%;
     padding:5px 0px;

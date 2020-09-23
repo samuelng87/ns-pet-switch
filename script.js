@@ -1,4 +1,5 @@
-alert('Warning ! You need a lot of chakras to connect into this website, are you ready? ')
+
+alert('Warning ! You need a lot of chakra to connect into this website, are you ready? ')
 
 
 
@@ -65,7 +66,9 @@ images [10] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.
 images [11] = 'rokuironfist.gif';
 images [12] = 'asi.gif';
 images [13] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif';
-
+images [14] = 'lightbuff.gif';
+images [15] = 'warsenjutsu.gif';
+images [16] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif';
 
 // change img 
 
@@ -96,7 +99,7 @@ const container = document.querySelector('.con-tainer')
 
  const text = document.querySelector('#text')
 
- const totalTime = 20000 
+ const totalTime = 25000 
  const breatheTime = (totalTime / 5) * 2
  const holdTime = totalTime / 5 
 
@@ -108,10 +111,10 @@ breatheAnimation()
 
      setTimeout(() => {
 
-text.innerText = '"CHANGE is NOT something human beings like and it cause us FEAR. FEAR works to the benefit of those who would like to control others "'
+text.innerText = '"Sometimes we need to lose the small battles in order to win the war. In the darkness only ambition will guide you"'
 
 setTimeout(() => {
-text.innerText = '"New growth cannot exist without first the destruction of the old"'
+text.innerText = '"Change is not something human beings like and it cause us fear. Fear works to the benefit of those who would like to control others "'
 container.className = 'container shrink'
 }, holdTime)
 
@@ -121,4 +124,9 @@ container.className = 'container shrink'
 
 setInterval(breatheAnimation, totalTime)
 
+
+function myFunction() {
+    var run = document.getElementById("myAudio").autoplay;
+    document.getElementById("demo").innerHTML = run;
+  }
 
