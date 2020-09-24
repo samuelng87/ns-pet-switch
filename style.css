@@ -545,7 +545,125 @@ transition: 1s;
     transition: 1s;
 }
 
+.sec-8 {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  width: 100%;
+  height:250vh;
+    background-image: linear-gradient(
+        115deg,
+        rgba(214, 214, 115, 0.104),
+        rgba(101, 134, 82, 0.5)
+      ),
+  url(https://vignette.wikia.nocookie.net/naruto/images/9/9b/Ichiraku_Ramen.png/revision/latest?cb=20110721140943);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.sec-8 h1 {
+margin-top:10% ;    
+color: honeydew;
+    font-size: 2rem;
+}
+
+.sec-8 p {
+    text-align: center;
+    margin-bottom: 2%;
+    width :80%;
+    color: honeydew;
+}
+
+.landpage {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:5rem;
+}
+
+.page {
+    width: 300px;
+    height:350px;
+}
+
+
+.landingpage1 {
+    color: honeydew;
+    width:300px;
+    position: absolute;
+
+}
+
+.top-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-image: linear-gradient(
+        115deg,
+        rgba(3, 0, 3, 0.452),
+        rgba(16, 13, 19, 0.3)
+      ),
+  url(tharnos.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:5rem;
+    background-image: linear-gradient(
+        115deg,
+        rgba(10, 10, 10, 0.952),
+        rgba(15, 14, 15, 0.938)
+      ),
+  url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:10rem;
+    background-image: linear-gradient(
+        115deg,
+        rgba(206, 204, 70, 0.3),
+        rgba(120, 148, 54, 0.2)
+      ),
+  url(sec7back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.price-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:2rem;
+    background-image: linear-gradient(
+        115deg,
+        rgba(10, 10, 10, 0.952),
+        rgba(15, 14, 15, 0.938)
+      ),
+  url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
 
 @media (max-width:1024px) { 
 
@@ -712,6 +830,8 @@ iframe {
 
 
 @media (max-width:500px) { 
+
+
 
     .sec-1 {  
 font-size: 1rem;
@@ -926,7 +1046,43 @@ width: 90%;
         transition: 1s;
     }
     
+.sec-8 h1 {
+    text-align: center;
 
+}
+
+.sec-8 p {
+font-size: 12px;
+}
+
+    .landpage {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:5rem;
+    }
+    
+    .page {
+        width: 300px;
+        height:350px;
+    }
+
+    .sec-8 {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      width: 100%;
+      height:400vh;
+        background-image: linear-gradient(
+            115deg,
+            rgba(214, 214, 115, 0.104),
+            rgba(101, 134, 82, 0.5)
+          ),
+      url(https://vignette.wikia.nocookie.net/naruto/images/9/9b/Ichiraku_Ramen.png/revision/latest?cb=20110721140943);
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 
 
 }

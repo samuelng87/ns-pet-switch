@@ -110,15 +110,15 @@ const container = document.querySelector('.con-tainer')
 breatheAnimation()
 
  function breatheAnimation () {
-     text.innerHTML = '"I have mastered the Kinjutsu a thousand times in a thousand lifetimes. Now i must do it once again."'
+     text.innerHTML = 'I have mastered the Kinjutsu a thousand times in a thousand lifetimes.  Now i must do it once again'
      container.className = 'container grow'
 
      setTimeout(() => {
 
-text.innerText = '"Sometimes we need to lose the small battles in order to win the war. In the darkness only ambition will guide you"'
+text.innerText = 'Sometimes we need to lose the small battles in order to win the war.  In the darkness only ambition will guide you'
 
 setTimeout(() => {
-text.innerText = '"Change is not something human beings like and it cause us fear. Fear works to the benefit of those who would like to control others "'
+text.innerText = 'Change is not something human beings like and it cause us fear. Fear works to the benefit of those who would like to control others'
 container.className = 'container shrink'
 }, holdTime)
 
