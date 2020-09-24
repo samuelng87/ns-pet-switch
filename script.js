@@ -67,8 +67,11 @@ images [11] = 'rokuironfist.gif';
 images [12] = 'asi.gif';
 images [13] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif';
 images [14] = 'lightbuff.gif';
-images [15] = 'warsenjutsu.gif';
-images [16] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif';
+images [15] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif';
+images [16] = 'warsenjutsu.gif';
+images [17] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif';
+images [18] = 'lightingarmor.gif';
+images [19] = 'https://thumbs.gfycat.com/FoolishFittingGlowworm-size_restricted.gif';
 
 // change img 
 
