@@ -2,6 +2,24 @@ html {
     scroll-behavior: smooth;
 }
 
+
+.bigbox {
+color: black;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    height: 90vh;
+    transition: 3s;
+}
+
+.bigbox:hover {
+    color: honeydew;
+transition:5s;
+}
+
+
 audio {
     width:10rem;
     left:0;
