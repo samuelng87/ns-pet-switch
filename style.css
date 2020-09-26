@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    background-color: black;
 }
 
 
@@ -527,7 +528,7 @@ border-radius: 10px;
 }
 
 .sec7word h1 {
-    line-height: 2;
+    line-height: 1.5;
     font-size: 5rem;
     opacity: 0.7;
 }
