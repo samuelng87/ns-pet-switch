@@ -989,6 +989,17 @@ iframe {
 
 @media (max-width:500px) { 
 
+    .about-flex {
+        color: honeydew;
+        padding:5%;
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+        align-items: center;
+        height: 300px;
+        overflow: scroll;
+    
+    }
    
 
     .sec-1 {  
